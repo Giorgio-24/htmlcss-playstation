@@ -1,6 +1,25 @@
 /*= UTILITIES */
+/*? COLORS */
 
+/*? BACKGROUND-COLORS */
+.bg-color-orange{
+    background-color: #cd3d0f;
+}
 
+/*? PADDINGS AND MARGINS */
+.margin-y-30{
+    margin: 30px 0;
+}
+/*? FONT SIZES */
+.font-size-40-px{
+    font-size: 40px;
+}
+/*? BUTTONS */
+.my-button{
+    text-decoration: none;
+    padding: 10px 12px;
+    border-radius: 50px;
+}
 
 /*= BODY */
 /*? HEADER */
@@ -35,8 +54,13 @@ header{
 }
 
 #main-first-section{
-
+    padding-top: 265px;
 }
+
+#returnal-logo{
+    width: 280px;
+}
+
 /*= HOVER EFFECTS */
 
 
