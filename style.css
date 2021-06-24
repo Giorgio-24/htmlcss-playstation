@@ -24,6 +24,19 @@ header{
     font-size: 44px;
 }
 
+/*? MAIN */
+#main-first-section-jumbotron{
+    height: 590px;
+    background-image: url(./img/jumbo-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 100px;
+}
+
+#main-first-section{
+
+}
 /*= HOVER EFFECTS */
 
 
