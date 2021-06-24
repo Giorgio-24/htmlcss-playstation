@@ -13,6 +13,10 @@
     background-color: #cd3d0f;
 }
 
+.bg-color-blue{
+    background-color: #2d64e6;
+}
+
 /*? PADDINGS AND MARGINS */
 .margin-y-30{
     margin: 30px 0;
@@ -101,10 +105,16 @@ header{
     border-radius: 20px;
 }
 
-
+#playstation{
+    position: relative;
+    bottom: 105px;/*! DA METTERE IN MEDIA QUERY MD */
+}
 
 /*= HOVER EFFECTS */
 
 
 
 /*= MEDIA QUERIES */
+@media screen and (min-width:) {
+    
+}
