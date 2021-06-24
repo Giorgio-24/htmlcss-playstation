@@ -1,0 +1,31 @@
+/*= UTILITIES */
+
+
+
+/*= BODY */
+/*? HEADER */
+header{
+    height: 100px;
+}
+
+#header-logo{
+    height: 35px;
+}
+
+#header-logo img{
+    width: 80px;
+}
+
+#header-nav{
+    height: 65px;
+}
+
+#header-nav i{
+    font-size: 44px;
+}
+
+/*= HOVER EFFECTS */
+
+
+
+/*= MEDIA QUERIES */
