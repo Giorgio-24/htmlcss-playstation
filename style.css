@@ -1,5 +1,12 @@
 /*= UTILITIES */
 /*? COLORS */
+.color-grey{
+    color: #727272;
+}
+
+.color-lightblue{
+    color: #1b81d2;
+}
 
 /*? BACKGROUND-COLORS */
 .bg-color-orange{
@@ -10,15 +17,32 @@
 .margin-y-30{
     margin: 30px 0;
 }
-/*? FONT SIZES */
+
+.margin-bottom-30{
+    margin-bottom: 30px;
+}
+
+.margin-y-100{
+    margin: 100px 0;
+}
+
+/*? FONTS*/
 .font-size-40-px{
     font-size: 40px;
 }
-/*? BUTTONS */
+
+.f-weight-600{
+    font-weight: 600;
+}
+
+/*? GENERALS */
 .my-button{
-    text-decoration: none;
     padding: 10px 12px;
     border-radius: 50px;
+}
+
+a{
+    text-decoration: none;
 }
 
 /*= BODY */
@@ -60,6 +84,24 @@ header{
 #returnal-logo{
     width: 280px;
 }
+
+#main-second-section{
+    padding: 10px 0;
+}
+
+#m-2-section-row-1 div{
+    width: 190px;
+    height: 110px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#m-2-section-row-1 div img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+
 
 /*= HOVER EFFECTS */
 
