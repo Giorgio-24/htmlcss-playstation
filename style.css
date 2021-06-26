@@ -122,6 +122,22 @@ header{
     width: 100%;
 }
 
+#main-third-section-jumbotron{
+    margin-top: 50px;
+    height: 620px;
+    background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+#main-third-section{
+    padding: 40px 0;
+}
+
+#it-tkes-two-logo{
+    width: 320px;
+}
 /*= HOVER EFFECTS */
 
 
