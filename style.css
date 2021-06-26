@@ -106,8 +106,20 @@ header{
 }
 
 #playstation{
+    width: 100%;
     position: relative;
-    bottom: 105px;/*! DA METTERE IN MEDIA QUERY MD */
+    bottom: 18px;
+}
+
+#m-2-section-row-4 div{
+    width: 126px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#m-2-section-row-4 div img{
+    width: 100%;
 }
 
 /*= HOVER EFFECTS */
@@ -115,6 +127,36 @@ header{
 
 
 /*= MEDIA QUERIES */
-@media screen and (min-width:) {
+@media screen and (min-width:576px){
+    /*? MAIN */
+
+}
+
+@media screen and (min-width:768px){
+    /*? MAIN */
+    #playstation{
+        position: relative;
+        bottom: 105px;
+    }
+
+    #m-2-section-row-4 div{
+        margin: 0 30px;
+    }
+}
+
+@media screen and (min-width:992px){
+    /*? MAIN */
+    
+}
+
+@media screen and (min-width:1200px){
+    /*? MAIN */
+    #m-2-section-row-4 {
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width:1400px){
+    /*? MAIN */
     
 }
