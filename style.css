@@ -21,6 +21,15 @@
     background-color: #1f1f1f;
 }
 
+.bg-color-light-grey{
+    background-color: #bebcbb;
+}
+
+.bg-color-lighter-grey{
+    background-color: #d9dadc;
+}
+
+
 /*? PADDINGS AND MARGINS */
 .margin-y-30{
     margin: 30px 0;
@@ -40,6 +49,10 @@
 
 .margin-bottom-100{
     margin-bottom: 100px;
+}
+
+.padding-y-100{
+    padding: 100px 0;
 }
 
 /*? FONTS*/
@@ -178,6 +191,30 @@ header{
 #m-5-section-row-2 div.col-12 img{
     width:100%;
 }
+
+#main-sixth-section-bg{
+    /* height: 245px; */
+    width: 100%;
+}
+
+#ps-plus-img-box{
+    width: 325px;
+}
+
+#ps-plus-img-box img{
+    width: 100%;
+}
+
+#ps-plus-monthly-games-img-box{
+    height: 100%;
+    bottom: 0;
+}
+
+#ps-plus-monthly-games-img-box img{
+    height: 100%;
+}
+
+
 /*= HOVER EFFECTS */
 
 
