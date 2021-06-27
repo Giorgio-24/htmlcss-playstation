@@ -17,6 +17,12 @@
     background-color: #2d64e6;
 }
 
+.bg-color-darker-blue{
+    background-color: #161c3b;
+}
+
+
+
 .bg-lighter-black{
     background-color: #1f1f1f;
 }
@@ -45,6 +51,10 @@
 
 .margin-y-100{
     margin: 100px 0;
+}
+
+.margin-top-100{
+    margin-top: 100px;
 }
 
 .margin-bottom-100{
@@ -197,21 +207,41 @@ header{
     width: 100%;
 }
 
-#ps-plus-img-box{
+.section-col-logo-box{
     width: 325px;
 }
 
-#ps-plus-img-box img{
+.section-col-logo-box img{
     width: 100%;
 }
 
-#ps-plus-monthly-games-img-box{
+
+.section-col-img-box{
     height: 100%;
     bottom: 0;
+    right: 0;
+    margin-right: 50px;
 }
 
-#ps-plus-monthly-games-img-box img{
+.section-col-img-box img{
     height: 100%;
+    width: 100%;
+}
+
+#m-7-section-row-2 div{
+    margin: 30px auto;
+}
+
+#m-7-section-row-2 div img{
+    width: 100%;
+}
+
+#main-height-section-background{
+    height: 460px;
+}
+
+#ps-now-april-featured-img-box{
+    margin: 0;
 }
 
 
