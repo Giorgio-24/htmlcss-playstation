@@ -26,12 +26,20 @@
     margin: 30px 0;
 }
 
+.margin-top-30{
+    margin-top: 30px;
+}
+
 .margin-bottom-30{
     margin-bottom: 30px;
 }
 
 .margin-y-100{
     margin: 100px 0;
+}
+
+.margin-bottom-100{
+    margin-bottom: 100px;
 }
 
 /*? FONTS*/
@@ -160,6 +168,15 @@ header{
 #m-4-section-row-2 div img{
     width: 100%;
     border-radius: 20px;
+}
+
+#m-5-section-row-2 div.col-12 div.img-box{
+    width:350px;
+    margin: 0 auto;
+}
+
+#m-5-section-row-2 div.col-12 img{
+    width:100%;
 }
 /*= HOVER EFFECTS */
 
