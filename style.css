@@ -100,12 +100,6 @@
     border-radius: 50px;
 }
 
-.my-button-border{
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    height: 10px;
-    width: 12px;
-}
-
 a{
     text-decoration: none;
 }
@@ -293,9 +287,6 @@ footer ul{
     list-style-type: none;
 }
 
-footer ul li{
-}
-
 footer ul li a{
     color:#fff
 }
@@ -309,7 +300,8 @@ img:hover{
     cursor: pointer;
 }
 
-#m-2-section-row-1 div:hover{
+#m-2-section-row-1 div:hover,
+#m-4-section-row-2 > div:hover{
     position: relative;
     bottom: 5px;
 }
@@ -319,8 +311,29 @@ header ul li:hover i.chevron-down{
     color: #00f;
 }
 
+.my-button.bg-dark:hover{
+    box-shadow: inset 0 0 0 3px #fff;
+    border: 3px solid #000;
+}
+
+.my-button.bg-color-orange:hover{
+    box-shadow: inset 0 0 0 3px #000;
+    border: 3px solid #cd3d0f;
+}
+
+.my-button.bg-color-blue:hover{
+    box-shadow: inset 0 0 0 3px #fff;
+    border: 3px solid #00439c;
+}
+
+.my-button.bg-color-lighter-grey:hover{
+    box-shadow: inset 0 0 0 3px #161c3b;
+    border: 3px solid #d9dadc;
+}
+
 .my-button:hover{
-    padding: 8px 10px;
+    box-shadow: inset 0 0 0 3px ;
+    border: 3px solid #fff;
 }
 
 #m-2-section-row-4 div:hover{
