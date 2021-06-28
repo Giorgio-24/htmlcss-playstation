@@ -194,6 +194,7 @@ header ul li a{
     margin: 0;
     display: flex;
     justify-content: space-between;
+    opacity: 0.4;
 }
 
 #m-2-section-row-4 div img{
@@ -304,6 +305,10 @@ footer ul li a{
 }
 
 /*= HOVER EFFECTS */
+img:hover{
+    cursor: pointer;
+}
+
 #m-2-section-row-1 div:hover{
     position: relative;
     bottom: 5px;
@@ -318,6 +323,9 @@ header ul li:hover i.chevron-down{
     padding: 8px 10px;
 }
 
+#m-2-section-row-4 div:hover{
+    opacity: 1;
+}
 
 /*= MEDIA QUERIES */
 @media screen and (min-width:576px){
