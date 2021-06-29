@@ -261,10 +261,6 @@ footer ul li a{
 }
 
 /*= HOVER EFFECTS */
-img:hover{
-    cursor: pointer;
-}
-
 #console-ps5-section div.row:first-of-type img:hover,
 #new-releases-section div.row:nth-of-type(2) > div:hover{
     margin-top: 0;
@@ -327,7 +323,7 @@ header ul li:hover i.chevron-down{
 
 @media screen and (min-width:992px){
     /*? MAIN */
-
+}
 @media screen and (min-width:1200px){
     /*? MAIN */
     #m-2-section-row-4 {
@@ -339,6 +335,6 @@ header ul li:hover i.chevron-down{
     }
 }
 
-@media screen and (min-width:1400px){
+@media screen and (min-width:1400px) {
     /*? MAIN */
 }
