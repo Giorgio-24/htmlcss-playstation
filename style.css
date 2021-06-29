@@ -9,6 +9,11 @@
 }
 
 /*? BACKGROUND-COLORS */
+#bg-opaque{
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
+
 .bg-color-orange{
     background-color: #cd3d0f;
 }
