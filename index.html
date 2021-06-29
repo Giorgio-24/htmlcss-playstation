@@ -10,11 +10,11 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <header class="fixed-top h container-fluid p-0">
-        <div id="header-logo" class="bg-dark d-flex justify-content-end"><img src="./img/sony_logo.svg" alt="logo-sony"></div>
+    <header class="fixed-top w-100">
+        <div id="header-logo" class="bg-dark d-flex justify-content-end"><a class="d-inline-block" href="#"><img src="./img/sony_logo.svg" alt="logo-sony"></a></div>
         <nav id="header-nav" class="bg-white d-flex justify-content-between align-items-center f-weight-600">
             <div>
-                <img src="./img/play_logo.svg" alt="playstation-logo">
+                <a class="d-inline-block" href="#"><img class="img-fluid" src="./img/play_logo.svg" alt="playstation-logo"></a>
                 <ul class="d-none d-xl-inline-block mb-0">
                     <li><a href="#">Giochi<i class="bi bi-chevron-down"></i></a></li>
                     <li><a href="#">Hardware<i class="bi bi-chevron-down"></i></a></li>
@@ -35,11 +35,11 @@
         </nav>
     </header>
     <main>
-        <div id="main-first-section-jumbotron" class="w-100">
-            <section id="main-first-section" class="container text-light">
+        <div class="w-100 jumbotron">
+            <section id="game-section" class="container text-light">
                 <div class="row align-content-end">
                     <div class="col-12 col-lg-4">
-                        <img id="returnal-logo" src="./img/returnal-hero-banner-logo.png" alt="returnal-logo">
+                        <img class="img-fluid" src="./img/returnal-hero-banner-logo.png" alt="returnal-logo">
                         <div>
                             <h1 class="font-size-40-px margin-y-30">Rompi il cerchio</h1>
                             <p class="margin-y-30">Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller fantascientifico, disponibile in esclusiva su PS5.</p>
@@ -49,8 +49,8 @@
                 </div>
             </section>
         </div>
-        <section id="main-second-section" class="container">
-            <div id="m-2-section-row-1" class="row justify-content-center">
+        <section id="console-ps5-section" class="container mt-3 py-1"><!-- DI 10PX SU E GIU -->
+            <div class="row justify-content-center">
                 <div class="col-6 col-sm-4 col-lg-2"><img class="img-fluid" src="./img/returnal-listing-thumb-01-ps5.jpg" alt="returnal"></div>
                 <div class="col-6 col-sm-4 col-lg-2"><img class="img-fluid" src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt="ratchet-and-clank"></div>
                 <div class="col-6 col-sm-4 col-lg-2"><img class="img-fluid" src="./img/returnal-listing-thumb-01-ps5.jpg" alt="returnal"></div>
@@ -58,22 +58,24 @@
                 <div class="col-6 col-sm-4 col-lg-2"><img class="img-fluid" src="./img/returnal-listing-thumb-01-ps5.jpg" alt="returnal"></div>
                 <div class="col-6 col-sm-4 col-lg-2"><img class="img-fluid" src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt="ratchet-and-clank"></div>
             </div>
-            <div id="m-2-section-row-2" class="row">
+            <div class="row">
                 <div class="col-12 text-center margin-y-100">
                     <a class="color-lightblue" href="#">PLAY HAS NO LIMITS</a>
                     <h2 class="font-size-40-px margin-bottom-30">Ecco la PlayStation 5</h2>
                     <div class="color-grey f-weight-600">Tuffati in nuove possibilità di gioco completamente inaspettate</div>
                 </div>
             </div>
-            <div id="m-2-section-row-3" class="row">
+            <div class="row">
                 <div class="col-12 col-lg-6 margin-y-30 ">
                     <h2 class="font-size-40-px margin-bottom-30">Console PlayStation 5</h2>
                     <div class="color-grey f-weight-600 margin-bottom-30">Sperimenta la nuova generazione di incredibili giochi PlayStation.</div>
                     <a class="my-button text-light bg-color-blue f-weight-600" href="#">Maggiori informazioni</a>
                 </div>
-                <div class="col-12 col-lg-6"><img class="img-fluid" id="playstation" src="./img/playstation-5-thumb.png" alt="ps5-thumb"></div>
+                <div class="col-12 col-lg-6">
+                    <img class="img-fluid" id="playstation" src="./img/playstation-5-thumb.png" alt="ps5-thumb">
+                </div>
             </div>
-            <div id="m-2-section-row-4" class="row justify-content-md-center">
+            <div id="console-accessories" class="row justify-content-md-center">
                 <div class="col-4 col-md-2"><img class="img-fluid" src="./img/playstation-5-thumb.png" alt="ps5-thumb"></div>
                 <div class="col-4 col-md-2"><img class="img-fluid" src="./img/joypad-thumb.png" alt="joypad-thumb"></div>
                 <div class="col-4 col-md-2"><img class="img-fluid" src="./img/headset-thumb.png" alt="headset-thumb"></div>
@@ -81,13 +83,11 @@
                 <div class="col-4 col-md-2"><img class="img-fluid" src="./img/camera-thumb.jpg" alt="camera-thumb"></div>
             </div>
         </section>
-        <div id="main-third-section-jumbotron" class="w-100">
-            <section id="main-third-section" class="container text-light">
+        <div class="w-100 jumbotron">
+            <section class="container text-light">
                 <div class="row">
-                    <div class="col-12 col-lg-4">
-                        <div>
-                            <img class="img-fluid" src="./img/it-takes-two-logo.png" alt="it-takes-two-logo">
-                        </div>
+                    <div class="col-12 col-xl-4">
+                        <img class="img-fluid" src="./img/it-takes-two-logo.png" alt="it-takes-two-logo">
                         <div>
                             <h2 class="font-size-40-px margin-y-30">Un' avventura cooperativa selvaggia ti attende</h2>
                             <p class="margin-y-30">Trova un amico e partite insieme per l'avventura più folle delle vostre vite in It Taakes Two, un gioco d'avventura cooperativa a piattafrome che stravolge il suo genere.</p>
@@ -98,7 +98,7 @@
             </section>
         </div>
         <div class="bg-lighter-black padding-bottom-30">
-            <section id="main-fourth-section" class="container text-light">
+            <section id="new-releases-section" class="container text-light">
                 <div class="row">
                     <h2 class="margin-y-30">Nuove uscite</h2>
                     <div class="margin-bottom-30 font-size-22-px">Giochi incredibili per ps4 e ps5 disponibili ora</div>
@@ -119,14 +119,14 @@
                 </div>
             </section>
         </div>
-        <section id="main-fifth-section" class="container">
+        <section class="container">
             <div class="row margin-y-30">
                 <div class="col-12 text-center">
                     <h2>Esplora PlayStation&#174; 4</h2>
                     <div class="color-grey f-weight-600">Giochi incredibili e intrattenimento senza fine. Non c'è mai stato un momento migliore per giocare sulla tua PS4.</div>
                 </div>
             </div>
-            <div id="m-5-section-row-2" class="row margin-bottom-100">
+            <div class="row margin-bottom-100">
                 <div class="col-12 col-lg-4 margin-top-30">
                     <div class="img-box">
                         <img class="img-fluid" src="./img/ps4-slim-homepage-image-block.jpg" alt="ps4-slim">
@@ -153,65 +153,65 @@
                 </div>
             </div>
         </section>
-        <div id="main-sixth-section-bg" class="bg-color-light-grey position-relative">
-            <section id="main-sixth-section" class="container text-dark">
+        <div class="bg-color-light-grey position-relative w-100">
+            <section id="ps-plus-section" class="container text-dark">
                 <div class="row">
-                    <div class="col-7 col-md-4"><img class="img-fluid" src="./img/ps-plus-logo.png" alt="ps-plus-logo"></div>
                     <div class="col-12 col-lg-6 padding-y-100 d-inline-block">
+                        <img class="img-fluid" src="./img/ps-plus-logo.png" alt="ps-plus-logo">
                         <div class="margin-y-30">Migliora la tua esperienza playstation con l'accesso a multigiocatore online, giochi mensili, sconti esclusivi e altro ancora.</div>
                         <a class="my-button color-lightblue bg-color-lighter-grey f-weight-600">Esplora PlayStation Plus</a>
                     </div>
-                    <div class="section-col-img-box d-none col-lg-6 d-lg-inline-block position-absolute">
-                        <img src="./img/ps-plus-april-monthly-games-featured-image-block.png" alt="ps-plus-monthly-games">
+                    <div class="section-col-img-box h-100 d-none col-lg-5 d-lg-inline-block position-absolute">
+                        <img class="h-100 w-100" src="./img/ps-plus-april-monthly-games-featured-image-block.png" alt="ps-plus-monthly-games">
                     </div>
                 </div>
             </section>
         </div>
-        <section id="main-seventh-section" class="container margin-top-100 margin-bottom-30 text-center">
+        <section class="container margin-top-100 margin-bottom-30 text-center">
             <div class="row margin-bottom-30 ">
-                <div class="col-12">
+                <div class="col-12 ">
                     <h2>Nuovi sconti sul PlayStation Store</h2>
                     <div class="color-grey f-weight-600 margin-y-30">Sconti pazzeschi, collezioni curate e saldi stagionali su PS5, PS4 e PS VR, tutti in un unico posto.</div>
                 </div>
             </div>
-            <div id="m-7-section-row-2" class="row">
+            <div class="row">
                 <div class="col-12 col-md-4 margin-top-70"><img class="img-fluid" src="./img/playstation-store-games-under-20-spotlight.jpg" alt="ps-store-games-under-20"></div>
                 <div class="col-12 col-md-4 margin-top-70"><img class="img-fluid" src="./img/playstation-store-golden-week-sale-spotlight.jpg" alt="ps-store-golden-week-sale"></div>
                 <div class="col-12 col-md-4 margin-y-70"><img class="img-fluid" src="./img/playstation-store-free-to-play-spotlight.png" alt="ps-store-free-to-play"></div>
             </div>
         </section>
-        <div id="main-eight-section-background" class="bg-color-darker-blue position-relative">
-            <section id="main-eight-section" class="container">
+        <div class="bg-color-darker-blue position-relative">
+            <section class="container">
                 <div class="row">
                     <div class="col-12 col-lg-6 d-inline-block padding-y-100">
                         <div class="col-7 col-md-4"><img class="img-fluid" src="./img/ps-now-logo-two-column.png" alt="ps-plus-logo"></div>
                         <div class="margin-y-30 text-light">Ottieni l'accesso immediato a una vastissima raccolta di oltre 800 giochi per PS4, PS3 e PS2 su PS4 o PC Windows, con nuovi titoli aggiunti ongi mese. </div>
                         <a class="my-button text-dark bg-light f-weight-600">Esplora PlayStation Now</a>
                     </div>
-                    <div id="ps-now-april-featured-img-box" class="section-col-img-box d-none col-lg-6 d-lg-inline-block position-absolute">
-                        <img src="./img/ps-now-april-featured-image-block.png" alt="ps-now-april-games">
+                    <div class="section-col-img-box h-100 d-none col-lg-6 d-lg-inline-block position-absolute">
+                        <img class="h-100 w-100" src="./img/ps-now-april-featured-image-block.png" alt="ps-now-april-games">
                     </div>
                 </div>
             </section>
         </div>
-        <section id="main-ninth" class="container">
+        <section class="container">
             <div class="row text-center margin-y-70">
                 <div class="col-12">
                     <h2>Seguici sui social media</h2>
                 </div>
         </div>
-        <div id="m-9-section-row-2" class="row margin-y-70">
+        <div  class="row margin-y-70">
             <div class="col-6 col-sm-2 margin-y-30 offset-sm-2">
-                <img src="./img/twitter.jpg" alt="twitter-logo">
+                <img class="img-fluid" src="./img/twitter.jpg" alt="twitter-logo">
             </div>
             <div class="col-6 col-sm-2 margin-y-30">
-                <img src="./img/facebook.jpg" alt="facebook-logo">
+                <img class="img-fluid" src="./img/facebook.jpg" alt="facebook-logo">
             </div>
             <div class="col-6 col-sm-2 margin-y-30">
-                <img src="./img/instagram.jpg" alt="instagram-logo">
+                <img class="img-fluid" src="./img/instagram.jpg" alt="instagram-logo">
             </div>
             <div class="col-6 col-sm-2 margin-y-30">
-                <img src="./img/youtube.png" alt="youtube-logo">
+                <img class="img-fluid" src="./img/youtube.png" alt="youtube-logo">
             </div>
         </div>
         </section>

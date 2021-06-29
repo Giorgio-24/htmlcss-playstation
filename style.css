@@ -107,6 +107,12 @@ a{
     text-decoration: none;
 }
 
+.jumbotron{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
 /*= BODY */
 /*? HEADER */
 header{
@@ -131,7 +137,8 @@ header ul{
 
 header ul li{
     display: inline-block;
-    margin: 0 10px;
+    margin-top: 10px;
+    margin-right: 10px;
 }
 
 header ul li i{
@@ -147,34 +154,33 @@ header ul li a{
 }
 
 /*? MAIN */
+
+/*^ RETURNAL SECTION */
 #main-first-section-jumbotron{
-    background-image: url(./img/jumbo-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: center;
+}
+
+main div.jumbotron:first-of-type{/* PRIMO JUMBOTRON */
+    background-image: url(./img/jumbo-bg.png);
     background-position-y: 100px;
 }
 
-#main-first-section{
-    padding: 265px 0 50px 0;
+#game-section{
+    padding-top: 265px;
+    padding-bottom: 50px;
 }
 
-#returnal-logo{
-    width: 280px;
+#game-section div[class="col-"] img:first-of-type{
+    max-width: 280px;
 }
 
-#main-second-section{
-    padding: 10px 0;
-}
-
-#m-2-section-row-1 div{
+/*^ CONSOLE SECTION */
+#console-ps5-section div.row:first-of-type img{
     border-radius: 20px;
-    margin-top: 20px;
-}
-
-#m-2-section-row-1 div img{
-    width: 100%;
-    border-radius: 20px;
+    margin-top: 10px;
+    transition: 0.7s;
 }
 
 #playstation{
@@ -183,82 +189,58 @@ header ul li a{
     bottom: 18px;
 }
 
-#m-2-section-row-4 div{
+#console-accessories div{
     display: flex;
     opacity: 0.4;
+    transition: 0.7s;
 }
 
-#m-2-section-row-4 div img{
-    width: 100%;
-}
-
-#main-third-section-jumbotron{
+/*^ IT TAKES TWO SECTION */
+main div.jumbotron:nth-of-type(2){
     margin-top: 50px;
     background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-x: center;
 }
 
-#main-third-section{
-    padding: 40px 0;
+main div.jumbotron:nth-of-type(2) section{
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
+main div.jumbotron:nth-of-type(2) img{
+    max-width: 260px;
+}
+
+/*^ NEW RELEASES SECTION */
 #m-4-section-row-2{
     justify-content: center;
 }
 
-#m-4-section-row-2 div{
-    border-radius: 20px;
+#new-releases-section div.row:nth-of-type(2) div{
     margin-top: 20px;
+    margin-bottom: 20px;
+    transition: 0.7s;
 }
 
-#m-4-section-row-2 div img{
-    width: 100%;
+#new-releases-section div.row:nth-of-type(2) div img{
     border-radius: 20px;
 }
 
-
-#main-sixth-section-bg{
-    width: 100%;
+/*^ PLAYSTATION PLUS SECTION */
+#ps-plus-section div.row div:first-of-type img{
+    max-width: 330px;
 }
 
-.section-col-logo-box{
-    width: 325px;
+#ps-plus-section div.d-none img{
+    min-width: 440px;
 }
 
-.section-col-logo-box img{
-    width: 100%;
-}
 
+/*^ PLAYSTATION SECTION */
 
 .section-col-img-box{
-    height: 100%;
     bottom: 0;
     right: 0;
     margin-right: 50px;
-}
-
-.section-col-img-box img{
-    height: 100%;
-    width: 100%;
-}
-
-#m-7-section-row-2 div img{
-    width: 100%;
-}
-
-#main-eight-section-background{
-    height: 460px;
-}
-
-#ps-now-april-featured-img-box{
-    margin: 0;
-}
-
-#m-9-section-row-2 div img{
-    width: 100%;
-    height: 100%;
 }
 /*? FOOTER */
 footer ul{
@@ -278,10 +260,9 @@ img:hover{
     cursor: pointer;
 }
 
-#m-2-section-row-1 div:hover,
-#m-4-section-row-2 > div:hover{
-    position: relative;
-    bottom: 5px;
+#console-ps5-section div.row:first-of-type img:hover,
+#new-releases-section div.row:nth-of-type(2) > div:hover{
+    margin-top: 0;
 }
 
 header ul li:hover a,
@@ -319,37 +300,40 @@ header ul li:hover i.chevron-down{
     cursor: pointer;
 }
 
-#m-2-section-row-4 div:hover{
+#console-accessories div:hover{
     opacity: 1;
 }
 
 /*= MEDIA QUERIES */
 @media screen and (min-width:576px){
     /*? MAIN */
-
+    main div.jumbotron:nth-of-type(2) img{
+        max-width: 335px;
+    }
 }
 
 @media screen and (min-width:768px){
     /*? MAIN */
-    #playstation{
-        position: relative;
-        bottom: 105px;
+
+    main div.jumbotron:nth-of-type(2) img{
+        max-width: 460px;
     }
 }
 
 @media screen and (min-width:992px){
     /*? MAIN */
-    
-}
 
 @media screen and (min-width:1200px){
     /*? MAIN */
     #m-2-section-row-4 {
         justify-content: center;
     }
+
+    main div.jumbotron:nth-of-type(2) img{
+        max-width: 260px;
+    }
 }
 
 @media screen and (min-width:1400px){
     /*? MAIN */
-    
 }
